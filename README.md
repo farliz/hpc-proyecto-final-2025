@@ -4,8 +4,11 @@
 Aplicación de MPI (Message Passing Interface) para procesamiento de imágenes. 
 
 Author: Lizardo M. Reyna Bowen
+
 Email : lizardo.reyna@utm.edu.ec
+
 Ints. : Universidad Técnica de Manabí / Facultad de Ingeniería Agrícola
+
 Date  : 2025-09-19
 
 nota:
@@ -20,3 +23,4 @@ Licencia:
     are permitted in any medium without royalty, provided the copyright
     notice and this notice are preserved. This file is offered as-is,
     without any warranty.
+
