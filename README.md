@@ -23,7 +23,7 @@ python main.py
 
 nota:
 
-Las imágenes utilizadas en este ejemplo pertenecen al Insituto Geográfico Militar del Ecuador.
+Las imágenes utilizadas en este ejemplo pertenecen al Insituto Geográfico Militar del Ecuador.\
                             --para uso estrictamente académico--
 
 Licencia:
@@ -34,6 +34,7 @@ Licencia:
     are permitted in any medium without royalty, provided the copyright
     notice and this notice are preserved. This file is offered as-is,
     without any warranty.
+
 
 
 
