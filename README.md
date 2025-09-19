@@ -10,7 +10,7 @@ Ints. : Universidad Técnica de Manabí / Facultad de Ingeniería Agrícola\
 Date  : 2025-09-19
 
 ## ejecutar
-===================================
+```
 mpiexec -n 8 python mpi_ndvi_ranks.py
 
 python main.py
@@ -18,7 +18,7 @@ python main.py
 mpiexec -n 8 python mpi_ndvi_scatter.py
 
 python main.py
-=====================================
+```
 
 
 nota:
@@ -34,6 +34,7 @@ Licencia:
     are permitted in any medium without royalty, provided the copyright
     notice and this notice are preserved. This file is offered as-is,
     without any warranty.
+
 
 
 
