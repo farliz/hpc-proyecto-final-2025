@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""==================================
-CURSO: HPC con Python // Instituo Gulich - 2025
+"""
+==================================
+CURSO: HPC con Python // Instituto Gulich - 2025
 ===================================
 Script para evaluar los resultad del cálculo del NDVI
 ==================================
