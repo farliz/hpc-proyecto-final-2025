@@ -1,5 +1,19 @@
 """
-basic.py: a simple module for auv image processing
+basic.py: a simple module for image processing (GIS)
+
+Author: Lizardo M. Reyna Bowen
+Email : lizardo.reyna@utm.edu.ec
+Inst. : Universidad Técnica de Manabí / Facultad de Ingeniería Agrícola
+Date  : 2025-09-19
+
+Licencia:
+
+    Copyright 2025, L. Reyna
+
+    Copying and distribution of this file, with or without modification,
+    are permitted in any medium without royalty, provided the copyright
+    notice and this notice are preserved. This file is offered as-is,
+    without any warranty.
 
 """
 from pathlib import Path
@@ -54,4 +68,5 @@ def show(arr: np.ndarray, cmap='PRGn'):
     ax.set_axis_off()
     plt.show()
     
+
 
