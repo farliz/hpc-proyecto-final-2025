@@ -18,7 +18,7 @@ flujo del proceso:
     - obtner una lista con las imágenes del directorio
     - cargar una imagen de la lista
     - separar las bandas
-    - fraccionar las bandas nir y  r en n partes (n=número de procesos)
+    - fraccionar las bandas nir y  r en n partes (n=número de procesos - 1)
     - enviar a calcular el ndvi cada parte e imprimir el promedio y número de proceso
     - reconstruir la matriz
     - guardar en formato .npy
