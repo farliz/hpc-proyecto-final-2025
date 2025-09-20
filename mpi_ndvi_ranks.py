@@ -61,9 +61,6 @@ Licencia:
     without any warranty.
 """
 
-
-
-
 from pathlib import Path
 import os
 import sys
