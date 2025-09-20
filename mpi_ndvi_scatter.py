@@ -16,8 +16,8 @@ que contienen 4 bandas; r, g, b, nir.
 flujo del proceso:
 
     - obtner una lista con las imágenes del directorio
-    - cargar y particiona las imagenes
-    - distribuye el los datos a los procesos
+    - cargar y particionar las imagenes
+    - distribuye los datos entre los procesos
     - calcula el NDVI (embarrassingly parallel)
     - colecta los resultados en root
     - reconstruir la matriz/imagen
@@ -127,5 +127,6 @@ if __name__ == '__main__':
 
             # Save outputs for this image
             basic.save(ndvi, base_name=base, out_dir=out_dir)
+
 
 
