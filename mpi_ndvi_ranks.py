@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""==================================
+"""
+==================================
 CURSO: HPC con Python // Instituo Gulich - 2025
 ===================================
 PROYECTO FINAL: Cálculo de NDVI
@@ -43,7 +44,7 @@ output:
 
 Author: Lizardo M. Reyna Bowen
 Email : lizardo.reyna@utm.edu.ec
-Ints. : Universidad Técnica de Manabí / Facultad de Ingeniería Agrícola
+Inst. : Universidad Técnica de Manabí / Facultad de Ingeniería Agrícola
 Date  : 2025-09-19
 
 nota:
