@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 ==================================
-CURSO: HPC con Python // Instituo Gulich - 2025
+CURSO: HPC con Python // Instituto Gulich - 2025
 ===================================
 PROYECTO FINAL: Cálculo de NDVI
 ==================================
