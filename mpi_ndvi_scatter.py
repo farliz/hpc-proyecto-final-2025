@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 ==================================
-CURSO: HPC con Python // Instituo Gulich - 2025
+CURSO: HPC con Python // Instituto Gulich - 2025
 ===================================
 PROYECTO FINAL: Cálculo de NDVI
 ==================================
@@ -127,4 +127,5 @@ if __name__ == '__main__':
 
             # Save outputs for this image
             basic.save(ndvi, base_name=base, out_dir=out_dir)
+
 
