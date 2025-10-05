@@ -30,6 +30,31 @@ el cálculo.
 | 0.4–0.6    | Vegetación moderada          |
 | 0.6–1.0    | Vegetación densa y saludable |
 
+## Directorio
+
+```
+
+├── data
+│   └── orthophotos
+│       ├── MIV-B2c-F3.jp2
+│       ├── MIV-B2c-F4.jp2
+│       ├── MIV-B2d-A1.jp2
+│       ├── MIV-B2d-A2.jp2
+│       ├── MIV-B2d-A3.jp2
+│       └── MIV-B2d-A4.jp2
+├── main.py
+├── mpi_ndvi_ranks.py
+├── mpi_ndvi_scatter.py
+├── README.md
+└── src
+    └── dronepro
+        ├── basic.py
+        ├── __init__.py
+		
+```
+*dronepro:* es un conjunto de funciones simples para procesar las imagenes.\
+*rasterio:* es una librearía de python para cargar imágenes georeferenciadas\
+
 ## Ejecutar
 ```
 mpiexec -n 8 python mpi_ndvi_ranks.py
