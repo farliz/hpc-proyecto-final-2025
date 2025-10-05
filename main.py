@@ -4,7 +4,7 @@
 ==================================
 CURSO: HPC con Python // Instituto Gulich - 2025
 ===================================
-Script para evaluar los resultad del cálculo del NDVI
+Script para evaluar los resultados del cálculo del NDVI
 ==================================
 
 exec:
@@ -19,12 +19,16 @@ import numpy as np
 
 import src.dronepro.basic as basic
 
-directory_path = "outputs_ndvi"
-files = [os.path.join(directory_path, f) for f in os.listdir(directory_path) if f.endswith('.npy')]
+if __name__ == "__main__":
 
-idx = 0
-data = np.load(files[idx])
-print(Path(files[idx]).stem)
-print(data.shape, data.mean())
-basic.stats(data)
-basic.show(data)
+    idx=0
+    output_path = "outputs_ndvi"
+    output_files = [os.path.join(output_path, f) for f in os.listdir(output_path) if f.endswith('.npy')]
+    ndvi = np.load(output_files[idx])
+
+    print(Path(output_files[idx]).stem)
+    print(ndvi.shape, ndvi.mean())
+
+    basic.stats(ndvi)
+    basic.show(ndvi)
+
