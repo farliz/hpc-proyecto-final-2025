@@ -52,19 +52,24 @@ el cálculo.
         ├── __init__.py
 		
 ```
-*dronepro:* es un conjunto de funciones simples para procesar las imagenes.\
-*rasterio:* es una librearía de python para cargar imágenes georeferenciadas\
+**dronepro:** es un conjunto de funciones simples para procesar las imagenes.\
+**rasterio:** (requerido) es una librearía de python para cargar imágenes georeferenciadas\
 
 ## Ejecutar
 ```
 mpiexec -n 8 python mpi_ndvi_ranks.py
 
 python main.py
-
+```
+Este script calcula el NDVI a partir de una sola imagen.
+```
 mpiexec -n 8 python mpi_ndvi_scatter.py
 
 python main.py
 ```
+Este script calcacula el NDVI de un conjunto de imágenes que estan un mismo directorio.
+
+**Formato:** el formato de las imágenes de entrada es jpg2000
 
 
 nota:
