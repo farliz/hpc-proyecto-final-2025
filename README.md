@@ -21,7 +21,7 @@ son las requeridas para el cálculo.
   infrarroja.
   
 $$
-  ndvi = \frac{nir-red}{nir + red}
+  NDVI = \frac{NIR-RED}{NIR + RED}
 $$
 
 *Interpretación referencial del NDVI:*\
