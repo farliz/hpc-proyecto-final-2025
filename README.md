@@ -10,15 +10,19 @@ Date  : 2025-09-19
 
 ## El índice de vegetación NDVI
 El NDVI (Normalized Difference Vegetation Index) mide la cantidad y el
-estado de la vegetación a partir de cómo las plantas reflejan la luz
-en el espectro rojo (RED) y infrarrojo cercano (NIR). En este caso las
-bandas o canales NIR (banda 4) y Red (banda 3) son las requeridas para
-el cálculo.
+estado de la vegetación a partir de la intensidad con que las plantas
+reflejan la luz en el espectro rojo (RED) y infrarrojo cercano
+(NIR). En este caso las bandas o canales NIR (banda 4) y Red (banda 3)
+son las requeridas para el cálculo.
 
 - La vegetación sana absorbe gran parte de la luz roja (usada en la
   fotosíntesis) y refleja fuertemente la luz infrarroja cercana.
 - La vegetación poco saludable o escasa refleja más luz roja y menos
   infrarroja.
+  
+$
+  ndvi = \frac{nir-red}{nir + red}
+$
 
 *Interpretación referencial del NDVI:*\
 
@@ -53,7 +57,7 @@ el cálculo.
 		
 ```
 **dronepro:** es un conjunto de funciones simples para procesar las imagenes.\
-**rasterio:** (requerido) es una librearía de python para cargar imágenes georeferenciadas\
+**rasterio:** (requerido) es una librería de python para cargar imágenes georeferenciadas\
 
 ## Ejecutar
 ```
