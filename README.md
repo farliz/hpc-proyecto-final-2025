@@ -20,9 +20,9 @@ son las requeridas para el cálculo.
 - La vegetación poco saludable o escasa refleja más luz roja y menos
   infrarroja.
   
-$
+$$
   ndvi = \frac{nir-red}{nir + red}
-$
+$$
 
 *Interpretación referencial del NDVI:*\
 
